@@ -6,6 +6,7 @@ D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Sample.runtimeconfig.json
 D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Sample.runtimeconfig.dev.json
 D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Sample.dll
 D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Sample.pdb
+D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.csproj.AssemblyReference.cache
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.AssemblyInfoInputs.cache
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.AssemblyInfo.cs
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.csproj.CoreCompileInputs.cache
@@ -17,4 +18,3 @@ D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.RazorTargetAssemblyInfo.c
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.dll
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.pdb
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.genruntimeconfig.cache
-D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.csproj.AssemblyReference.cache
