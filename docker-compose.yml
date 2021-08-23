@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  sample:
+    image: ${DOCKER_REGISTRY-}sample
+    build:
+      context: .
+      dockerfile: Sample/Dockerfile
+    healthcheck:
+        test: curl -f http://sample/health 
+        interval: 10s
+        timeout: 5s
+        retries: 3
+        start_period: 30s
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Logging__LogLevel__Default: Debug
+      Logging__LogLevel__Microsoft.Extensions.Diagnostics.HealthChecks: Debug
+      Logging__IncludeScopes: 'false'
+        
