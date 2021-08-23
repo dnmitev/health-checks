@@ -24,6 +24,7 @@ namespace SampleHealthChecks
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddHealthChecks();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +48,7 @@ namespace SampleHealthChecks
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHealthChecks("/health");
             });
         }
     }
