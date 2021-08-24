@@ -31,6 +31,7 @@ namespace Sample
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder
+                        .UseLinuxTransport()
                         .UseKestrel()
                         .UseStartup<Startup>();
                 });

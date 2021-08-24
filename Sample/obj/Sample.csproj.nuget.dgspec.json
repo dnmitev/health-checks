@@ -52,6 +52,10 @@
             "NSwag.AspNetCore": {
               "target": "Package",
               "version": "[13.13.2, )"
+            },
+            "RedHat.AspNetCore.Server.Kestrel.Transport.Linux": {
+              "target": "Package",
+              "version": "[3.1.0-210305.1686, )"
             }
           },
           "imports": [

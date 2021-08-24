@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HL5C+z/Y35qYqNPqiOnxWATc4jIOFNOqR6Z/RWlOKWYCHGaE8j6FVJHkZqujD1nPssKJJK7nNQzk8B1NsLD9jQ==",
+  "dgSpecHash": "6pHGtiFmh+VPSKnR40fCj9buIGXOFO22ukNMpEREysT+nW9+Icgw55wqIHDxlMkcwqkJWdM7qLgLi4KbiCkhYQ==",
   "success": true,
   "projectFilePath": "D:\\health-checks\\Sample\\Sample.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\C53064A\\.nuget\\packages\\nswag.core.yaml\\13.13.2\\nswag.core.yaml.13.13.2.nupkg.sha512",
     "C:\\Users\\C53064A\\.nuget\\packages\\nswag.generation\\13.13.2\\nswag.generation.13.13.2.nupkg.sha512",
     "C:\\Users\\C53064A\\.nuget\\packages\\nswag.generation.aspnetcore\\13.13.2\\nswag.generation.aspnetcore.13.13.2.nupkg.sha512",
+    "C:\\Users\\C53064A\\.nuget\\packages\\redhat.aspnetcore.server.kestrel.transport.linux\\3.1.0-210305.1686\\redhat.aspnetcore.server.kestrel.transport.linux.3.1.0-210305.1686.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
@@ -56,6 +57,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\C53064A\\.nuget\\packages\\tmds.libc\\0.3.0\\tmds.libc.0.3.0.nupkg.sha512",
     "C:\\Users\\C53064A\\.nuget\\packages\\yamldotnet\\9.1.4\\yamldotnet.9.1.4.nupkg.sha512"
   ],
   "logs": []

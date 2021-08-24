@@ -274,6 +274,21 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "RedHat.AspNetCore.Server.Kestrel.Transport.Linux/3.1.0-210305.1686": {
+        "type": "package",
+        "dependencies": {
+          "Tmds.LibC": "0.3.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/RedHat.AspNetCore.Server.Kestrel.Transport.Linux.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/RedHat.AspNetCore.Server.Kestrel.Transport.Linux.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "System.Collections/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -736,6 +751,26 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
+        }
+      },
+      "Tmds.LibC/0.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Tmds.LibC.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/lib/netstandard2.0/Tmds.LibC.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/lib/netstandard2.0/Tmds.LibC.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/lib/netstandard2.0/Tmds.LibC.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          }
         }
       },
       "YamlDotNet/9.1.4": {
@@ -1227,6 +1262,17 @@
         "lib/netstandard2.0/NSwag.Generation.AspNetCore.xml",
         "nswag.generation.aspnetcore.13.13.2.nupkg.sha512",
         "nswag.generation.aspnetcore.nuspec"
+      ]
+    },
+    "RedHat.AspNetCore.Server.Kestrel.Transport.Linux/3.1.0-210305.1686": {
+      "sha512": "Dim+5pKbVYRt1vaijZPkWr4Z9mSSjVGx72pMY0pA77nry/7k8DDfAvtiR42ZVLx+svoa6atOX1vwDZTNzAg4gA==",
+      "type": "package",
+      "path": "redhat.aspnetcore.server.kestrel.transport.linux/3.1.0-210305.1686",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netcoreapp3.1/RedHat.AspNetCore.Server.Kestrel.Transport.Linux.dll",
+        "redhat.aspnetcore.server.kestrel.transport.linux.3.1.0-210305.1686.nupkg.sha512",
+        "redhat.aspnetcore.server.kestrel.transport.linux.nuspec"
       ]
     },
     "System.Collections/4.0.11": {
@@ -3208,6 +3254,21 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Tmds.LibC/0.3.0": {
+      "sha512": "Z+aT6qZ4hVyeGL/VgAuL7TLQXxGJog70VlaqqeztyM9TAf3wBvYcjs3sBnirABGlIEZKzl3bg5UQdqrHPiQPnw==",
+      "type": "package",
+      "path": "tmds.libc/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ref/netstandard2.0/Tmds.LibC.dll",
+        "runtimes/linux-arm/lib/netstandard2.0/Tmds.LibC.dll",
+        "runtimes/linux-arm64/lib/netstandard2.0/Tmds.LibC.dll",
+        "runtimes/linux-x64/lib/netstandard2.0/Tmds.LibC.dll",
+        "tmds.libc.0.3.0.nupkg.sha512",
+        "tmds.libc.nuspec"
+      ]
+    },
     "YamlDotNet/9.1.4": {
       "sha512": "dVVZVhQxTI4xTNc9YorE+RruBFPPYKP44kMijE6Z5OQQE7zK+SEmh2sPm091CrTYVz1jjIuXKIBm1kFLrlsQJg==",
       "type": "package",
@@ -3237,7 +3298,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.14",
-      "NSwag.AspNetCore >= 13.13.2"
+      "NSwag.AspNetCore >= 13.13.2",
+      "RedHat.AspNetCore.Server.Kestrel.Transport.Linux >= 3.1.0-210305.1686"
     ]
   },
   "packageFolders": {
@@ -3292,6 +3354,10 @@
           "NSwag.AspNetCore": {
             "target": "Package",
             "version": "[13.13.2, )"
+          },
+          "RedHat.AspNetCore.Server.Kestrel.Transport.Linux": {
+            "target": "Package",
+            "version": "[3.1.0-210305.1686, )"
           }
         },
         "imports": [
