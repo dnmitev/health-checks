@@ -18,3 +18,16 @@ D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.RazorTargetAssemblyInfo.c
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.dll
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.pdb
 D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.genruntimeconfig.cache
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+D:\health-checks\Sample\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.MvcApplicationPartsAssemblyInfo.cs
+D:\health-checks\Sample\obj\Debug\netcoreapp3.1\Sample.csproj.CopyComplete

@@ -33,6 +33,7 @@ namespace Sample
             services.AddControllers();
             services.AddHttpClient();
             services.AddHealthChecks();
+            services.AddSwaggerDocument();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +44,8 @@ namespace Sample
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
             app.UseRouting();
 
 
