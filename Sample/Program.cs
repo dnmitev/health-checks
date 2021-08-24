@@ -32,7 +32,6 @@ namespace Sample
                 {
                     webBuilder
                         .UseLinuxTransport()
-                        .UseKestrel()
                         .UseStartup<Startup>();
                 });
     }
